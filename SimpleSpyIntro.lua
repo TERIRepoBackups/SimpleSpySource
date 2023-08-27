@@ -107,7 +107,7 @@ wait(0.5)
 TweenService:Create(s, TweenInfo.new(0.25), {TextColor3 = white}):Play()
 TweenService:Create(s2, TweenInfo.new(0.25), {TextColor3 = white}):Play()
 
-wait(0.25)
+wait(0.5)
 
 TweenService:Create(s, TweenInfo.new(0.15), {TextTransparency = 1}):Play()
 TweenService:Create(s2, TweenInfo.new(0.15), {TextTransparency = 1}):Play()
@@ -125,7 +125,7 @@ wait(0.15)
 TweenService:Create(background, TweenInfo.new(0.5), {Size = endTweenSize, Position = endTweenPos}):Play()
 
 coroutine.wrap(function()
-	wait(2)
+	wait(0.5)
 	TweenService:Create(background, TweenInfo.new(0.5), {BackgroundTransparency = 1}):Play()
 	wait(0.5)
 	intro:Destroy()
